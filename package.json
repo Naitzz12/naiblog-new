@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "path": "^0.12.7"
+  },
+  "name": "naiblog-new",
+  "version": "1.0.0",
+  "description": "Web Blog",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node script.js"
+  },
+  "keywords": [
+    "Web",
+    "Blog"
+  ],
+  "author": "Naitzz",
+  "license": "ISC"
+}
