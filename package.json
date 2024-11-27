@@ -11,15 +11,14 @@
   "name": "naiblog-new",
   "version": "1.0.0",
   "description": "Web Blog",
-  "main": "index.cjs",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon script.cjs"
+    "start": "nodemon script.js"
   },
   "keywords": [
     "Web",
     "Blog"
   ],
   "author": "Naitzz",
-  "license": "ISC",
-  "type": "module"
+  "license": "ISC"
 }
