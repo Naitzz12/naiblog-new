@@ -1,12 +1,39 @@
-# React + Vite
+# Website Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hallo semua, kalian butuh website berita yang menampung berbagai macam berita yang dimuat oleh Antara, CNBC, CNN, Dan lain lain.
 
-Currently, two official plugins are available:
+Di project ini saya menggunakan teknologi :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**React, TailwindCSS, Vite**
 
-## Expanding the ESLint configuration
+## Features [ Comming Soon ]
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Tema Terang / Gelap 
+- Pencarian 
+- Ada juga perkiraan cuaca 
+- Responsive
+
+
+## instalasi
+
+Untuk mendeploy web nya
+
+### Install Module Dahulu
+```bash
+  npm i
+```
+
+Untuk meng install semua module yang dibutuhkan oleh project tersebut
+
+### Jalankan Web nya
+```bash
+npm run dev
+```
+
+Ini gunanya untuk kita dapat melihat hasil dari web yang telah kita kerjakan, npm run dev sendiri digunakan untuk saat sesi developing agar mudah saat merubah/memodifikasi project
+
+## Lisensi
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+Jika ada masalah kalian bisa hubungi saya lewat naitzz76@gmail.com atau bisa pergi ke tab [Issue](https://github.com/Naitzz12/naiblog-new/issues)
