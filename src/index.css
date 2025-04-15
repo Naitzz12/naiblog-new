@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --font-lato: "Lato", sans-serif;
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-quicksand: "Quicksand", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+  --font-playwrite-pl: "Playwrite PL", cursive;
+  --colo1: #162cb9;
+  --colo-white: white;
+  --colo-bg: #1f2021;
+}
+
+nav {
+  h1 {
+    font-family: var(--font-playwrite-pl);
+  }
+
+  ul li {
+    font-family: var(--font-poppins);
+    color: var(--colo-bg);
+    font-weight: 300;
+  } 
+
+  ul li a {
+    font-family: var(--font-poppins);
+    color: var(--colo-bg);
+    font-weight: 300;
+  }
+}
+
+.nm {
+  font-family: var(--font-poppins);
+}
