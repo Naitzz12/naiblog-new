@@ -22,7 +22,7 @@ nav {
     font-family: var(--font-poppins);
     color: var(--colo-bg);
     font-weight: 300;
-  } 
+  }
 
   ul li a {
     font-family: var(--font-poppins);
@@ -33,4 +33,22 @@ nav {
 
 .nm {
   font-family: var(--font-poppins);
+}
+
+#main {
+  .rounded-full {
+    font-family: var(--font-poppins);
+  }
+
+  h1 {
+    font-family: var(--font-poppins);
+  }
+
+  .info {
+    font-family: var(--font-poppins);
+  }
+
+  a {
+    font-family: var(--font-lato);
+  }
 }
