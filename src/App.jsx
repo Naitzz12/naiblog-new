@@ -34,7 +34,7 @@ function App() {
         }`}
       >
         <h1 className="text-5xl font-bold text-[#0c8ce9]">NB</h1>
-        <ul className="flex justify-around items-center-safe gap-10 relative after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-4 after:h-1 after:w-full after:bg-[#0c8ce9] after:rounded-full">
+        <ul className="flex justify-around items-center-safe gap-10 relative">
           <li>
             <a
               href="#main"
@@ -75,14 +75,14 @@ function App() {
               <i className="fa-solid fa-address-card"></i> Tentang Kami
             </a>
           </li>
-          <li
+          <button
             href=""
             onClick={toggleView}
             className="flex justify-center items-center gap-3 text-sm cursor-pointer relative after:content-[''] after:absolute after:top-0 after:-right-2 after:bg-red-500 after:w-3 after:h-3 after:rounded-full after:animate-ping before:content-[''] before:absolute before:top-0 before:-right-2 before:bg-red-500 before:w-3 before:h-3 before:rounded-full"
           >
             <i className="fa-solid fa-tv"></i> Berita
             <ListBerita isOpen={listView} />
-          </li>
+          </button>
         </ul>
         <div className="nm">
           <button className="cursor-pointer bg-[#0c8ce9] text-white px-3 py-2 rounded-md shadow-[0px_7px_0px_0px_rgba(12,_140,_233,_0.8)] transition-all active:shadow-[0px_0px_0px_0px_rgba(12,_140,_233,_0.5)] active:transform-[translateY(10px)]">

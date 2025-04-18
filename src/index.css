@@ -18,13 +18,13 @@ nav {
     font-family: var(--font-playwrite-pl);
   }
 
-  ul li {
+  ul li a {
     font-family: var(--font-poppins);
     color: var(--colo-bg);
     font-weight: 300;
   }
 
-  ul li a {
+  ul button {
     font-family: var(--font-poppins);
     color: var(--colo-bg);
     font-weight: 300;
